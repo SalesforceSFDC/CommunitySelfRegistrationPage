@@ -54,6 +54,14 @@ private class onb_RegisterEntityDetailsControllerTest {
         insert ops;
         Test.StopTest();
     }
+
+    @IsTest
+    static void testIsValidPassword() {
+        System.assert(onb_LightningSelfRegisterController.isValidPassword('password?@12334', 'password?@12334') == true);
+        System.assert(onb_LightningSelfRegisterController.isValidPassword('password?@12334', 'dummyPassword') == false);
+        System.assert(onb_LightningSelfRegisterController.isValidPassword('password?@12334', null) == false);
+        System.assert(onb_LightningSelfRegisterController.isValidPassword(null, 'fakePwd') == false);
+}
 }
 
 
