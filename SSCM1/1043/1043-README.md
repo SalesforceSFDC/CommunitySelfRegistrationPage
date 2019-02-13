@@ -15,4 +15,10 @@
 ### Record Types
 * Entity
 * Individual
-### 
+### Lightning Record Pages
+* [Onboarding Application Owner Record Page](https://coinbase--josh.lightning.force.com/lightning/setup/ObjectManager/01Ic0000000F3Fi/LightningPages/0M0c00000008h0FCAQ/view)
+### Page Layouts
+* Onboarding Application Entity Owner Layout
+* Onboarding Application Individual Owner Layout
+### Fields & Relationships
+* [Master-Detail(Onboarding Application)](https://coinbase--josh.lightning.force.com/lightning/setup/ObjectManager/01Ic0000000F3Fi/FieldsAndRelationships/00Nc0000003kTYV/view)
